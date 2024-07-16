@@ -18,7 +18,29 @@ const fetchData = ()=>{
   .catch((error)=>{
       console.log(error);});
   };
+/*
 
+            const apiBody = document.querySelector(".api_body");
+            const apiUrl = "https://icanhazdadjoke.com/";
+
+            const fetchData= async() =>{
+              try {
+                const res = await fetch(apiUrl, {
+                    headers: {
+                        Accept: "application/json"
+                    }
+                });
+                const data = await res.json();
+                console.log(data.joke);
+                apiBody.innerHTML= data.joke;
+
+            } catch (error) {
+                console.error("Error fetching the joke:", error);
+                apiBody.innerHTML= error;
+            }
+        
+            }
+*/
 
 
 // Add event listener to fetch a new joke when the button is clicked
